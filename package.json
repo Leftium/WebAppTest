@@ -7,7 +7,7 @@
   "license": "ISC",
   "description": "An example project using WebApp base-class-ts npm module",
   "scripts": {
-    "build": "webpack"
+    "browser-sync": "browser-sync . --startPath /public"
   },
   "dependencies": {
     "base-class-ts": "^1.0.2",
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/luxon": "^3.4.2",
+    "browser-sync": "^3.0.2",
     "bun-plugin-html": "^2.0.0",
     "lodash": "^4.17.21",
     "webpack": "^5.92.0",
