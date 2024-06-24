@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/luxon": "^3.4.2",
+    "bun-plugin-html": "^2.0.0",
     "lodash": "^4.17.21",
     "webpack": "^5.92.0",
     "webpack-cli": "^5.1.4"
